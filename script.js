@@ -4,10 +4,13 @@ bundle.style.right = `${-1 * bundle.offsetWidth}px`;
 const handleOpen = () => {
   bundle.style.display = "block";
   bundle.style.right = 0;
+  bundle.style.display = `block`;
   localStorage.setItem("bundleSlideStatus", "open");
 };
 const handleClose = () => {
   bundle.style.right = `${-1 * bundle.offsetWidth}px`;
+  bundle.style.display = `none`;
+
   localStorage.setItem("bundleSlideStatus", "close");
 };
 if (localStorage.getItem("bundleSlideStatus") == "open") {
