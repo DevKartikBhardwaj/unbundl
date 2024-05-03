@@ -1,0 +1,56 @@
+@media(max-width:1024px) {
+    .leftNav {
+        color: black;
+    }
+
+    .homeContent {
+        padding: 0 4.5rem;
+    }
+
+    .homeContent>h2 {
+        color: white;
+        background-color: #00000040;
+    }
+
+    .homeContent>p {
+        color: white;
+        background-color: black;
+    }
+
+    .carouselArrowWrapper {
+        margin-left: 1rem;
+    }
+
+    #bundle {
+        width: 60vw;
+    }
+}
+
+@media (max-width:450px) {
+    .leftNav {
+        color: white;
+    }
+
+    .midNav {
+        display: none;
+    }
+
+    .carouselContainer {
+        width: 21rem;
+    }
+
+    .homeContent {
+        padding: 1.5rem;
+    }
+
+    .homeContent>p {
+        background-color: #00000030;
+        backdrop-filter: blur(8px);
+        color: white;
+    }
+
+    #bundle {
+        width: 100vw;
+        padding: 0;
+    }
+}

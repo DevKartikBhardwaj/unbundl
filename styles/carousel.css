@@ -1,0 +1,60 @@
+.carouselArrowWrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 4.5rem;
+}
+
+
+.carouselContainer {
+    width: 66rem;
+    /* border: 1px solid red; */
+    display: flex;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.arrows {
+    cursor: pointer;
+}
+
+.productCard {
+    background-color: white;
+    color: black;
+    min-width: 20rem;
+    margin-right: 20px;
+    min-height: 320px;
+    transition: transform 0.2s ease-in-out;
+    position: relative;
+}
+
+.productCard>img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    height: 15rem;
+}
+
+.productCard>h3 {
+    font-size: 1.8rem;
+    padding: 2px;
+    padding: 5px 10px 5px 10px;
+}
+
+.productCard>p {
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 0px 10px 5px 10px;
+}
+
+.productCard>p>span {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: black;
+}
+
+.productCard>button {
+    margin: 10px 10px 5px 10px;
+    width: 88%;
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChocoGalaxy-Place for kids</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/carousel.css" />
+    <link rel="stylesheet" href="./styles/bundle.css" />
+    <link rel="stylesheet" href="./styles/query.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <span class="toast" id="toastid"></span>
+    <header>
+      <nav>
+        <div class="leftNav">CHOCOGALAXY</div>
+        <div class="midNav">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="rightNav">
+          <img
+            src="./Icons/bundle.png"
+            alt="Bundle"
+            width="20px"
+            onclick="handleOpen()"
+          />
+        </div>
+      </nav>
+    </header>
+    <section class="homeContent">
+      <h2>Choco<span style="color: white">Galaxy</span></h2>
+      <p>
+        Elevate every moment with our premium cocoa creations.<br />Savor the
+        sweetness of life with our irresistible array of handcrafted
+        chocolates.<br />Treat yourself or surprise a loved one with our divine
+        chocolate delights, crafted to delight the senses.
+      </p>
+      <button class="btn">Shop Now</button>
+    </section>
+    <div class="carouselArrowWrapper">
+      <span class="material-symbols-outlined arrows" onclick="prev()">
+        arrow_back_ios
+      </span>
+      <div class="carouselContainer" id="carousel">
+        <!-- ******************************************************** -->
+        <!-- <div class="productCard" style="margin-left: 10px">
+          <img
+            src="images/belgiantruffle.jpg"
+            alt="belgiantruffle"
+            width="150px"
+          />
+          <h3>Belgian truffle White Chocolate</h3>
+          <p><span>Category</span> - Truffles</p>
+          <p style="color: green"><span>MRP</span> - $6</p>
+          <button class="btn">Add to Bundle</button>
+        </div> -->
+      </div>
+      <span class="material-symbols-outlined arrows" onclick="next()">
+        arrow_forward_ios
+      </span>
+    </div>
+    <!-- section for bundle  -->
+    <div id="bundle">
+      <span class="material-symbols-outlined closeBtn" onclick="handleClose()">
+        close
+      </span>
+      <h2>YOUR BUNDLE</h2>
+      <div id="bundleCardWrapper">
+        <!-- **************************************************************** -->
+        <!-- ******************************************************************** -->
+        <!-- <div class="bundleCard">
+          <img src="images/belgiantruffle.jpg" alt="" />
+          <div class="bundleCardContent">
+            <h3>
+              <span class="minPart">Product - </span>Hazelnuts chocolate cream
+              bar
+            </h3>
+            <p>
+              <span class="minPart">Description - </span>Satisfy your cravings
+              with a mix of crunchy nuts enrobed in smooth milk chocolate, a
+              perfect blend of indulgence and nutrition.
+            </p>
+            <p><span class="minPart">Category - </span>truffles</p>
+            <p style="color: green; font-weight: bold">
+              <span class="minPart" style="color: white">MRP - </span>$223
+            </p>
+            <p>
+              <span class="minPart">qty </span><span>- </span>3 <span>+</span>
+            </p>
+            <button class="btn" style="background-color: white; color: black">
+              Remove Product
+            </button>
+          </div>
+        </div> -->
+        <!-- **************************************************************** --><!-- ******************************************************************** -->
+      </div>
+      <div id="totalMRP">Total MRP - $<span id="totalAmount">0</span></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

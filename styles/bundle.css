@@ -1,0 +1,66 @@
+#bundle {
+    width: 30vw;
+    background-color: #000000db;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    color: white;
+    padding: 0 20px;
+    display: none;
+    transition: all 1s ease-in-out;
+    backdrop-filter: blur(7px);
+    overflow-y: scroll;
+}
+
+.closeBtn {
+    position: absolute;
+    top: 3px;
+    right: 20px;
+    cursor: pointer;
+}
+
+#bundle>h2 {
+    text-align: center;
+    margin: 5px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.bundleCard {
+    display: flex;
+    margin: 3rem 0;
+}
+
+.bundleCard>img {
+    width: 100px;
+}
+
+.bundleCardContent {
+    padding: 10px 0 10px 10px;
+}
+
+.bundleCardContent>h3 {
+    font-size: 1.6rem;
+}
+
+.bundleCardContent>p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 18px;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.minPart {
+    font-weight: 400;
+
+}
+
+#totalMRP {
+    font-size: 2rem;
+    padding: 0.5rem 0.5rem;
+    background-color: rgba(32, 12, 210, 0.458);
+    text-align: center;
+    backdrop-filter: blur(7px);
+}

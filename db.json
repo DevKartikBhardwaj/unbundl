@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Belgian Bliss Truffles",
+        "description": "Indulge in the creamy richness of Belgian chocolate truffles, a heavenly treat for chocolate connoisseurs.",
+        "mrp": 15.99,
+        "category": "Truffles",
+        "img": "https://res.cloudinary.com/dwhf5f08p/image/upload/v1714632850/chocogalaxy/belgiantruffle_g1uc5d.jpg",
+        "qty": 1
+    },
+    {
+        "name": "Dark Chocolate Sea Salt Caramel Bar",
+        "description": "Experience the perfect balance of rich dark chocolate, creamy caramel, and a touch of sea salt, a divine combination in every bite.",
+        "mrp": 9.99,
+        "category": "Chocolate Bars",
+        "img": "https://res.cloudinary.com/dwhf5f08p/image/upload/v1714632847/chocogalaxy/seaSalted_yseod5.jpg",
+        "qty": 1
+    },
+    {
+        "name": "Gourmet Assorted Chocolate Box",
+        "description": "Discover a variety of gourmet chocolates in one elegant box, featuring an array of flavors and textures to delight your senses.",
+        "mrp": 24.99,
+        "category": "Assorted Chocolates",
+        "img": "https://res.cloudinary.com/dwhf5f08p/image/upload/v1714632847/chocogalaxy/gourted_r5obll.jpg",
+        "qty": 1
+    },
+    {
+        "name": "Hazelnut Praline Bonbons",
+        "description": "Crunch into the exquisite blend of smooth hazelnut praline encased in a delicate chocolate shell, a symphony of flavors in each bonbon.",
+        "mrp": 12.99,
+        "category": "Bonbons",
+        "img": "https://res.cloudinary.com/dwhf5f08p/image/upload/v1714632847/chocogalaxy/whitechocolatetruffles_ixk2qf.jpg",
+        "qty": 1
+    },
+    {
+        "name": "Mint Chocolate Chip Cookies",
+        "description": "Indulge in the classic combination of rich chocolate chips and refreshing mint, baked into soft, chewy cookies for a blissful treat.",
+        "mrp": 8.99,
+        "category": "Cookies",
+        "img": "https://res.cloudinary.com/dwhf5f08p/image/upload/v1714632845/chocogalaxy/Mint-Chocolate-Chip-Cookies_oyvmfy.jpg",
+        "qty": 1
+    },
+    {
+        "name": "Caramel Filled Milk Chocolate Hearts",
+        "description": "Delight your loved ones with these milk chocolate hearts filled with luscious caramel, a sweet token of affection for any occasion.",
+        "mrp": 11.99,
+        "category": "Chocolate Hearts",
+        "img": "https://res.cloudinary.com/dwhf5f08p/image/upload/v1714632844/chocogalaxy/hearts_zoa1cx.jpg",
+        "qty": 1
+    },
+    {
+        "name": "Assorted Chocolate Covered Nuts",
+        "description": "Satisfy your cravings with a mix of crunchy nuts enrobed in smooth milk chocolate, a perfect blend of indulgence and nutrition.",
+        "mrp": 16.99,
+        "category": "Chocolate Covered Nuts",
+        "img": "https://res.cloudinary.com/dwhf5f08p/image/upload/v1714632844/chocogalaxy/assortedChocolate_obkmik.jpg",
+        "qty": 1
+    },
+    {
+        "name": "Artisanal Chocolate Bark",
+        "description": "Savor the rustic charm of artisanal chocolate bark, adorned with an assortment of nuts, dried fruits, and other delectable toppings.",
+        "mrp": 17.99,
+        "category": "Chocolate Bark",
+        "img": "https://res.cloudinary.com/dwhf5f08p/image/upload/v1714632844/chocogalaxy/dark-chocolate-bark-roasted-almonds_gryxnu.jpg",
+        "qty": 1
+    },
+    {
+        "name": "Salted Caramel Chocolate",
+        "description": "Indulge in the irresistible combination of crunchy pretzels smothered in smooth milk chocolate and sprinkled with sea salt, a perfect balance of sweet and savory.",
+        "mrp": 10.99,
+        "category": "Chocolate Covered Pretzels",
+        "img": "https://res.cloudinary.com/dwhf5f08p/image/upload/v1714632845/chocogalaxy/Chocolates-with-hazelnut-praline-filling_qnjmsw.jpg",
+        "qty": 1
+    },
+    {
+        "name": "Luxury Chocolate Gift Basket",
+        "description": "Impress your loved ones with a lavish assortment of premium chocolates, elegantly presented in a stylish gift basket for a truly indulgent experience.",
+        "mrp": 39.99,
+        "category": "Gift Baskets",
+        "img": "https://res.cloudinary.com/dwhf5f08p/image/upload/v1714632843/chocogalaxy/p-chocolate-gift-basket-premium-118443-m_hcpov4.jpg",
+        "qty": 1
+    },
+    {
+        "name": "Coconut Almond Chocolate Clusters",
+        "description": "Treat yourself to the tropical flavors of coconut and almonds, blended with rich milk chocolate to create irresistible clusters of goodness.",
+        "mrp": 12.99,
+        "category": "Chocolate Clusters",
+        "img": "https://res.cloudinary.com/dwhf5f08p/image/upload/v1714632843/chocogalaxy/Chocolate-Coconut-Almond-Clusters-Rochers_hntuim.jpg",
+        "qty": 1
+    },
+    {
+        "name": "Chocolate Covered Strawberries",
+        "description": "Indulge in the decadence of ripe strawberries dipped in smooth milk chocolate, a luxurious treat that's as beautiful as it is delicious.",
+        "mrp": 19.99,
+        "category": "Chocolate Covered Fruit",
+        "img": "https://res.cloudinary.com/dwhf5f08p/image/upload/v1714632851/chocogalaxy/strawberrychocolate_zfbni3.jpg",
+        "qty": 1
+    },
+    {
+        "name": "Peanut Butter Chocolate Cups",
+        "description": "Satisfy your peanut butter cravings with these creamy chocolate cups filled with smooth, rich peanut butter, a timeless classic reinvented for chocolate lovers.",
+        "mrp": 9.99,
+        "category": "Chocolate Cups",
+        "img": "https://res.cloudinary.com/dwhf5f08p/image/upload/v1714632850/chocogalaxy/peanutbutterchoccups_uenyuk.jpg",
+        "qty": 1
+    },
+    {
+        "name": "Dark Chocolate Almond Bark",
+        "description": "Experience the perfect marriage of rich dark chocolate and crunchy almonds in every satisfying bite of this classic confection.",
+        "mrp": 14.99,
+        "category": "Chocolate Bark",
+        "img": "https://res.cloudinary.com/dwhf5f08p/image/upload/v1714632844/chocogalaxy/dark-chocolate-bark-roasted-almonds_gryxnu.jpg",
+        "qty": 1
+    }
+]
