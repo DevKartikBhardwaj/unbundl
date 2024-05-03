@@ -58,6 +58,7 @@
 @media(max-width:376px) {
     .homeContent {
         padding: 0 1.5rem;
+        height: 36vh;
     }
 
     .homeContent>h2 {
