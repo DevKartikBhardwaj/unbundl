@@ -13,7 +13,7 @@ html {
 body {
     background-image: url("../images/home2.png");
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background-size: cover;
     background-position: right;
