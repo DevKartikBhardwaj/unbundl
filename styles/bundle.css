@@ -33,8 +33,10 @@
 }
 
 .bundleCard>img {
-    width: 100px;
+    width: 300px;
+    min-width: 166px;
 }
+
 
 .bundleCardContent {
     padding: 10px 0 10px 10px;
