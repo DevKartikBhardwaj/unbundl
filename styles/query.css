@@ -54,3 +54,19 @@
         padding: 0;
     }
 }
+
+@media(max-width:376px) {
+    .homeContent {
+        padding: 0 1.5rem;
+    }
+
+    .homeContent>h2 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+
+    .homeContent>p {
+        margin-bottom: 10px;
+    }
+
+}
